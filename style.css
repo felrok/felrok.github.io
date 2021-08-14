@@ -1,0 +1,39 @@
+canvas {
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    float: left;
+}
+
+.block {
+    width: 600px;
+}
+
+
+#score {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    
+}
+
+#restart {
+    width: 120%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    align-items: center;
+    background-color: #FF1493;
+    color: #FFFFF0;
+    border-radius: 50px;
+    margin-left: -40px;
+}
+
+#restart:hover {
+    transition: all 0.2s ease-in;
+	border-radius: 62px;
+	background-color: #7CFC00;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
